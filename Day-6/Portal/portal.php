@@ -22,6 +22,19 @@
 <body>
 <div class="container-xl">
 	<div class="table-responsive">
+	<?php if(isset($_GET['status'])): ?>
+    <p>
+        <?php
+            if($_GET['status'] == 'sukses'){
+                echo "insert  berhasil!";
+            } else {
+                echo "insert gagal!";
+            }
+        ?>
+    </p>
+<?php endif; ?>
+
+
 		<div class="table-wrapper">
 			<div class="table-title">
 				<div class="row">

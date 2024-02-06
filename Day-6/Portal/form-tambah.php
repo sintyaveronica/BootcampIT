@@ -20,11 +20,20 @@
             <input type="file" name="gambar"></input>
         </p>
         <p>
+            <label for="kategori"> Kategori Artikel: </label>
+            <select name="kategori">
+                <option>Panduan</option>
+                <option>Olahraga</option>
+                <option>Berita</option>
+                <option>Entertainment</option>
+            </select>
+        </p>
+        <p>
             <label for="isi_artikel">Isi Artikel: </label>
             <textarea name="artikel"></textarea>
         </p>
         <p>
-            <input type="submit" value="Tambah Artikel" name="tambah_artikel" />
+            <input type="submit" value="posting" name="posting" />
         </p>
         </fieldset>
     </form>
